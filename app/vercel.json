@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "drgn/app/*.txt",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "drgn/app/**/*",
+      "use": "@vercel/node"
+    }
+  ]
+}
