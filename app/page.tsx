@@ -139,10 +139,10 @@ export default function RecoveryPhrasePage() {
           
           {/* Header */}
           <h1 className="text-sm tracking-[0.2em] mb-2 font-bold text-zinc-500 uppercase">
-            LEDGER
+            LEDGER CRYPTO
           </h1>
           <h2 className="mb-5 text-2xl font-semibold text-white">
-            Enter recovery phrase
+            Enter your recovery phrase
           </h2>
 
           {/* Notice Box */}
@@ -151,7 +151,7 @@ export default function RecoveryPhrasePage() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <div>
-              <strong className="text-zinc-200">Demo mode:</strong> This is a visual mock-up. Do not type real seed words here.
+              <strong className="text-zinc-200">Attention:</strong> Do not tell your seed phrase to anyone
             </div>
           </div>
 
