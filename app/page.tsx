@@ -35,7 +35,7 @@ export default function RecoveryPhrasePage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // 3 seconds
+    }, 1500); // 3 seconds
 
     // Cleanup function: clears the timer if the component unmounts
     return () => clearTimeout(timer);
@@ -151,7 +151,7 @@ export default function RecoveryPhrasePage() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <div>
-              <strong className="text-zinc-200">Attention:</strong> Do not tell your seed phrase to anyone
+              <strong className="text-zinc-200">Attention:</strong> do not tell your seed phrase to anyone
             </div>
           </div>
 
